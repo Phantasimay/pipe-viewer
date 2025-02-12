@@ -64,6 +64,7 @@ For trying the latest commit of `pipe-viewer`, without installing it, execute th
 To install `pipe-viewer`, run:
 
 ```console
+    apt install git libwww-perl liblwp-protocol-https-perl libdata-dump-perl libjson-perl libmodule-build-perl
     perl Build.PL
     sudo ./Build installdeps
     sudo ./Build install
